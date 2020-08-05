@@ -15,7 +15,6 @@ As a user, you will be able to;
 - Wildlife
 - Cars
 - solar
-- animals
 
 ## Author
 Tom Koech
