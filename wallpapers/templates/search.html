@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+{{block.super}}
+{% block content%}
+<h3><i>Found {{ images.count }} results for {{message}}</i></h3>
+<div class="flex-container" style="display: flex; flex-wrap: wrap; justify-content: space-evenly; margin-top: 40px;">
+    {% for image in images%}
+    {% if image.image_url%}
+    <div class="card">
+        <a href="{% url 'wallpapers-single_image' image.id %}">
+            <img class="flex-item" src="{{ image.image_url.url }}" alt="" height="350px" width="250px" style="margin-bottom: 15px;">
+        </a>
+        <p>Posted{{ image.pub_date }}</p>
+    </div>
+    {% endif%}
+    {% endfor%}
+</div>
+{%endblock%}

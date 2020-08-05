@@ -1,8 +1,8 @@
 {% extends 'base.html'%}
 {{block.super}}
-{% load static%}
 {% block content%}
-<div class="flex-container" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+<h3>In {{location.name}}</h3>
+<div class="flex-container" style="display: flex; flex-wrap: wrap; justify-content: space-evenly; margin-top: 40px;">
     {% for image in images%}
     {% if image.image_url%}
     <a href="{% url 'wallpapers-single_image' image.id %}">

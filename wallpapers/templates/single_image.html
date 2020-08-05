@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+{%block content%}
+{{block.super}}
+    <h1>{{ image.name }}</h1>
+    <p>~~{{image.description}}</p>
+    <img class="flex-item" src="{{ image.image_url.url }}" alt="" height="600px" width="500px" style="margin-bottom: 15px;">
+    <div class="location">
+        <img src="https://cdn.pixabay.com/photo/2016/11/30/17/10/pin-1873372_960_720.png" alt="" height="30px" width="20px">
+        <p style="font-size: 20px;">{{image.location}}</p>
+    </div>
+{% endblock%}
