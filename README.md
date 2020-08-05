@@ -21,7 +21,7 @@ As a user, you will be able to;
 Tom Koech
 
 ## Live link
-Visit the application on https://.herokuapp.com/.
+Visit the application on https://wallpaper-gala.herokuapp.com/.
 
 ## Technologies Used
 Technologies used to develop this application:
