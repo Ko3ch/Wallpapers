@@ -10,6 +10,11 @@ As a user, you will be able to;
 - Copy a link to the photo to share with your friends.
 - View photos based on the location they were taken.
 
+Guest-Admin, adds images to site
+
+- user - Guest
+- password - dmaW9SeSpEh5GKn
+
 ## Categories available for search
 
 - Wildlife
