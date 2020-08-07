@@ -10,7 +10,7 @@ As a user, you will be able to;
 - Copy a link to the photo to share with your friends.
 - View photos based on the location they were taken.
 
-Guest-Admin, adds images to site
+Guest-Admin, adds images to site, https://wallpaper-gala.herokuapp.com/admin
 
 - user - Guest
 - password - dmaW9SeSpEh5GKn
